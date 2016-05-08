@@ -1,0 +1,3 @@
+#!/bin/bash
+cd `dirname $0` #go to current working directory
+./VLC --video-filter=rotate{angle=180}
